@@ -3,7 +3,6 @@ package com.aaronbedra.functional.servlet.example;
 import com.aaronbedra.functional.servlet.FunctionalServlet;
 import com.jnape.palatable.lambda.adt.Either;
 import com.jnape.palatable.lambda.io.IO;
-import com.jnape.palatable.lambda.monad.MonadRec;
 import org.junit.Before;
 import org.junit.Test;
 

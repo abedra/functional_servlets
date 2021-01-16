@@ -6,6 +6,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 
 import static com.aaronbedra.functional.servlet.ServletAdapter.servletAdapter;
 import static com.aaronbedra.functional.servlet.example.GreetingServlet.greetingServlet;
+import static com.jnape.palatable.lambda.io.IO.io;
 import static org.eclipse.jetty.servlet.ServletContextHandler.NO_SESSIONS;
 
 public class Main {

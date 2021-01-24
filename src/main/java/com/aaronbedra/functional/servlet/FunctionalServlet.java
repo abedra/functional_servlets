@@ -14,6 +14,7 @@ import static com.jnape.palatable.lambda.io.IO.io;
 import static javax.servlet.http.HttpServletResponse.SC_METHOD_NOT_ALLOWED;
 import static javax.servlet.http.HttpServletResponse.SC_OK;
 
+@SuppressWarnings("unused")
 public final class FunctionalServlet<M extends MonadRec<?, M>, F, A> implements ServletMethods<M, F, A> {
     private final Fn2<HttpServletRequest, HttpServletResponse, MonadRec<Either<F, A>, M>> headFn;
     private final Fn2<HttpServletRequest, HttpServletResponse, MonadRec<Either<F, A>, M>> getFn;
